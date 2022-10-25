@@ -1,0 +1,24 @@
+@import "colors.scss";
+@import "components.scss";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+.wrapper {
+  background-color: $main-color;
+}
+@import "header.scss";
+@import "small.scss";

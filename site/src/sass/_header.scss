@@ -1,0 +1,36 @@
+.header {
+  margin-top: 8em;
+  .header__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding: 4em 2em;
+  }
+  .header__title {
+    position: relative;
+    font-size: 5rem;
+    color: $red-color;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 3px;
+      width: 60%;
+      background-color: $red-color;
+      top: -100%;
+      right: -100%;
+      left: -100%;
+      bottom: -180%;
+      margin: auto;
+      animation: slide 2s ease-in;
+    }
+  }
+
+  .header__text {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

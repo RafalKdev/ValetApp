@@ -1,0 +1,12 @@
+@media (max-width: 420px) {
+  .header {
+    .header__title {
+      font-size: 2rem;
+      right: 1em;
+
+      &::before {
+        content: none;
+      }
+    }
+  }
+}
