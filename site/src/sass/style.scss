@@ -16,9 +16,8 @@ body {
   font-family: "Cairo", sans-serif;
   font-size: 1.6rem;
   min-height: 100vh;
-}
-.wrapper {
   background-color: $main-color;
+  margin-top: 3em;
 }
 @import "header.scss";
 @import "valet.scss";

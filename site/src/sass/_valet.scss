@@ -11,7 +11,6 @@
     font-size: 2.8rem;
     margin-bottom: 0.5em;
     text-transform: uppercase;
-    color: $red-color;
   }
   .valet__input {
     width: 80%;
@@ -35,5 +34,64 @@
       background-color: $red-color;
       color: $main-color;
     }
+  }
+
+  .valet__list-title {
+    font-size: 2.8rem;
+    padding: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .valet__item-info {
+    font-weight: bold;
+  }
+  .valet__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8em;
+    list-style-type: none;
+    padding-left: 1.5em;
+    background-color: $bg-color;
+  }
+  .valet__tools {
+    display: inline-block;
+  }
+  .valet__tools button {
+    padding: 0.5em 0.8em;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: $red-color;
+      color: $main-color;
+    }
+  }
+  .completed {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--light-dark);
+    text-decoration: line-through;
+  }
+
+  .popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1em 1em;
+    background-color: $bg-color;
+  }
+  .popup__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    width: 80%;
   }
 }
