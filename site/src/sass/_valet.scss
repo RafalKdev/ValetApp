@@ -1,0 +1,39 @@
+.valet__wrapper {
+  .valet__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-color;
+    border-radius: 8px;
+    padding: 1.5em 1em;
+  }
+  .valet__info {
+    font-size: 2.8rem;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    color: $red-color;
+  }
+  .valet__input {
+    width: 80%;
+    margin-bottom: 1em;
+    border: none;
+    padding: 0.8em 0.5em;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(82, 82, 82, 0.4);
+  }
+  .valet__btn {
+    padding: 1em 3em;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: $main-color;
+    color: $red-color;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: $red-color;
+      color: $main-color;
+    }
+  }
+}
