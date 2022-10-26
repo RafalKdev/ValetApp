@@ -1,5 +1,5 @@
-@import "colors.scss";
-@import "components.scss";
+@import "./colors";
+@import "./components";
 
 *,
 *::after,
@@ -19,6 +19,7 @@ body {
   background-color: $main-color;
   margin-top: 3em;
 }
-@import "header.scss";
-@import "valet.scss";
-@import "small.scss";
+@import "./header";
+@import "./valet";
+@import "small";
+@import "./medium";

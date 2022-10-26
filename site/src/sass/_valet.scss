@@ -6,6 +6,7 @@
     background-color: $bg-color;
     border-radius: 8px;
     padding: 1.5em 1em;
+    margin: 0.8em;
   }
   .valet__info {
     font-size: 2.8rem;
@@ -52,13 +53,14 @@
     margin: 0.8em;
     list-style-type: none;
     padding-left: 1.5em;
+    padding: 0.7em;
     background-color: $bg-color;
   }
   .valet__tools {
     display: inline-block;
   }
   .valet__tools button {
-    padding: 0.5em 0.8em;
+    padding: 0.5em 1em;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -75,23 +77,51 @@
     color: var(--light-dark);
     text-decoration: line-through;
   }
-
+  .popup__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8em;
+  }
   .popup {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
     width: 800px;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 1em 1em;
     background-color: $bg-color;
   }
   .popup__wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 1.5em;
-    width: 80%;
+    width: 90%;
+  }
+  .popup__input {
+    width: 100%;
+    padding: 0.8em 0.5em;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 5px rgba(82, 82, 82, 0.4);
+    margin-bottom: 1em;
+  }
+  .popup__btn {
+    display: inline-block;
+    width: 40%;
+    margin: 0.7em;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    border: none;
+    color: $red-color;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: $red-color;
+      color: $main-color;
+    }
   }
 }

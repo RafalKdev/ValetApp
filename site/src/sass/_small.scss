@@ -1,12 +1,23 @@
-@media (max-width: 420px) {
+@media (max-width: 576px) {
   .header {
     .header__title {
       font-size: 2rem;
-      right: 1em;
+      text-align: center;
 
       &::before {
         content: none;
       }
     }
+  }
+  .valet__item {
+    flex-direction: column;
+  }
+  .valet__tools {
+    padding: 1em 0.5em;
+  }
+  .valet__tools button {
+    margin: 0.4em;
+  }
+  .popup__btn {
   }
 }
