@@ -13,6 +13,12 @@
     margin-bottom: 0.5em;
     text-transform: uppercase;
   }
+  .alert__info {
+    text-align: center;
+    font-size: 2rem;
+    color: $red-color;
+    font-weight: bold;
+  }
   .valet__input {
     width: 80%;
     margin-bottom: 1em;
@@ -43,9 +49,7 @@
     text-align: center;
     text-transform: uppercase;
   }
-  .valet__item-info {
-    font-weight: bold;
-  }
+
   .valet__item {
     display: flex;
     justify-content: space-between;
@@ -55,6 +59,7 @@
     padding-left: 1.5em;
     padding: 0.7em;
     background-color: $bg-color;
+    font-weight: bold;
   }
   .valet__tools {
     display: inline-block;
