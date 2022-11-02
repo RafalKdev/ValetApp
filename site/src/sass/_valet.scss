@@ -79,7 +79,7 @@
   .completed {
     font-size: 12px;
     font-style: italic;
-    color: var(--light-dark);
+    color: $red-color;
     text-decoration: line-through;
   }
   .popup__container {
@@ -89,13 +89,14 @@
     margin: 0.8em;
   }
   .popup {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 800px;
     padding: 1em 1em;
     background-color: $bg-color;
+    position: fixed;
   }
   .popup__wrapper {
     display: flex;
