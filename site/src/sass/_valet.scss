@@ -25,7 +25,7 @@
     border: none;
     padding: 0.8em 0.5em;
     border-radius: 8px;
-    box-shadow: 4px 4px 5px rgba(82, 82, 82, 0.4);
+    box-shadow: $boxShadow;
   }
   .valet__btn {
     padding: 1em 3em;
@@ -110,7 +110,7 @@
     padding: 0.8em 0.5em;
     border-radius: 8px;
     border: none;
-    box-shadow: 4px 4px 5px rgba(82, 82, 82, 0.4);
+    box-shadow: $boxShadow;
     margin-bottom: 1em;
   }
   .popup__btn {
